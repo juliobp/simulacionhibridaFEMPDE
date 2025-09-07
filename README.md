@@ -57,4 +57,18 @@ Donde
   = coeficiente de amortiguamiento entre pisos
   = coeficiente de rigidez entre pisos
   = fuerza sísmica en el piso i
+# Simulación Híbrida PDE-FEM de Edificio de 100 Pisos
 
+Este proyecto modela la respuesta dinámica de un edificio alto ante excitación sísmica, combinando métodos de Elementos Finitos (FEM) y Ecuaciones Diferenciales Parciales (PDE).
+
+## 📌 Características
+
+- Modelo híbrido con acoplamiento FEM-PDE
+- Excitación sísmica multicomponente
+- Integración numérica con `solve_ivp`
+- Visualización animada con `matplotlib`
+
+## 📦 Requisitos
+
+```bash
+pip install numpy scipy matplotlib
